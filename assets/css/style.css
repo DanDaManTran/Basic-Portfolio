@@ -10,6 +10,10 @@ a{
 	color: green;
 }
 
+.fade{
+	opacity: 0.3;
+}
+
 .picture{
 	margin: 1%;
 }
@@ -40,8 +44,6 @@ footer{
 	color: white;
 	text-align: center;
 	height: 10%;
-/*	position: absolute;
-	bottom: 0;*/
 	width: 100%;
 	border-style: solid none none none;
 	border-color: green;
@@ -95,11 +97,13 @@ footer{
 
 input[type="text"] {
     width: 99%;
+    opacity: 50%;
 }
 
 input[type="message"] {
     width: 99%;
     height: 150px;
+    opacity: 50%;
 }
 
 .subButton{
